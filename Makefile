@@ -7,8 +7,8 @@ OBJS = iterator.o composite.o
 
 #Targets
 
-all: main.cpp $(OBJS)
-	$(COMPILE) $(FLAGS) -o a.out main.cpp $(OBJS)
+all: test.cpp $(OBJS)
+	$(COMPILE) $(FLAGS) -o a.out test.cpp $(OBJS)
 
 iterator.o: iterator.cpp iterator.h
 	$(COMPILE) $(FLAGS) -c iterator.cpp

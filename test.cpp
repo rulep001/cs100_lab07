@@ -6,9 +6,9 @@ using namespace std;
 
 int main() {
 
-	Op* op3 = new Op(3);
+	Op* op3 = new Op(5);
 	Op* op4 = new Op(4);
-	Op* op2 = new Op(2);
+	Op* op2 = new Op(3);
 	Add* add = new Add(op3, op4);
 	Sqr* sqr = new Sqr(op2);
 	Sub* sub = new Sub(add, sqr);
