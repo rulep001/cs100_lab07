@@ -4,7 +4,7 @@
 The iterator pattern allows for traversal of various types of containers without the client knowing the underlying
 structure of the container. Therefore, the iterator’s job is to simplify traversal and to remove the technical
 nuances of accessing a container allowing the developer to code at a higher level of abstraction. To make our
-iterator as reusable as possible we have to implement a core interface that all of our iterators will inherit.  
+iterator as reusable as possible we have to implement a core interface that all of our iterators will inherit.    
 In this lab, we will create a pre-order traversal iterator as well as the different collection iterators necessary
 to fully iterate our composite system. Our Iterator class will be used for both collection iterators and traversal
 iterators, so we want to keep it fairly basic.
